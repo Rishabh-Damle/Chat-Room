@@ -27,8 +27,8 @@ function App() {
     };
   }, []);
   return (
-    <div className="h-screen bg-neutral-950 flex flex-col justify-between">
-      <div className="mt-8 f">
+    <div className="h-screen bg-neutral-950 flex flex-col justify-between flex-wrap">
+      <div className="mt-8 ">
         {messages.map((message) => (
           <div className="m-10">
             <span className="bg-cyan-100 p-4 m-8 rounded">{message} </span>
